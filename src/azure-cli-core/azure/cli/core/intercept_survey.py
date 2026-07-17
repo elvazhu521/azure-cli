@@ -30,11 +30,7 @@ NEW_LINE = '\x1b[1L'
 ERASE_IN_LINE = '\x1b[0K'
 
 
-_SURVEY_URL = ("https://forms.office.com/Pages/ResponsePage.aspx"
-               "?id=v4j5cvGGr0GRqy180BHbRwR17_do7w1OiGpiUQ5GrVJUQjlSSDZJNVRHNkxBSlpTTTVaV1I2UDBRTS4u"
-               "&r9c0d925f40a744889d623306c96f9cb3={installation_id}"
-               "&r66c9ed63f0db49be81133967d05dff2a={version}"
-               "&r6ad94416fdfe4550918102b41b0080fc={day}")
+_SURVEY_URL = "https://go.microsoft.com/fwlink/?linkid=2201856&ID={installation_id}&v={version}&d={day}"
 _SURVEY_LEARN_MORE_URL = "https://go.microsoft.com/fwlink/?linkid=2203309"
 
 
